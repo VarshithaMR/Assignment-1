@@ -102,7 +102,6 @@ func main() {
 	//API has error : "Anti heroes"
 	/*go func(){
 		getRespo3()
-
 	}()*/
 	wg.Wait()
 	fmt.Println("CONTENT OF MAP")
