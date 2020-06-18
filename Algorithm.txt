@@ -1,0 +1,17 @@
+Algorithm
+
+1. Use goroutines to read in parallel
+go func(){ }()
+2. read the body of 3 APIs in parallel
+http.Get(<url>)
+3.store the response in a map
+	map[string]interface{}
+4.Unmarshal the body of response
+	json.Unmarshal()
+5.convert the interface{} value of map to float64
+	map.Interface().(map[string]interface{})
+6.Iterate each elements of the map and store it in a map[string]float64
+7.Display the contents of map in localhost using ResponseWriter and Request
+8. create a url query request
+9.initialize map's key i.e., charactername, to url query 
+10.On query display the chracter's powerleve;
